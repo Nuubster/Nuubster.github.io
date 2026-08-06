@@ -1,0 +1,257 @@
+@font-face {
+    font-family: retro;
+    src: url(RETROTECH.ttf);
+}
+
+.TempTxt {
+    font-size: xx-large;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    background-attachment: fixed;
+}
+
+p {
+    margin: 4px 0 0 0; 
+    width: 100%;
+    font-size: 11px;  
+    color: white; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); 
+    word-wrap: break-word;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.Desktop {
+    width: 48px;
+    height: 48px;
+    background-image: url(WinXp/Icons/WinIcons_48.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 2.5rem;
+    background-size: 960px 960px;
+    image-rendering: pixelated; 
+    image-rendering: crisp-edges;
+    margin-left: 0.5rem;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80px;
+    text-align: center;
+}
+
+.XP-Home {
+    background-position: -48px -143px;
+}
+
+.XP-Blog {
+    background-position: -49px -97px;
+}
+
+.XP-Music {
+    background-position: -336px -816px;
+}
+
+.XP-Anime {
+    background-position: -432px -865px;
+}
+
+.XP-Guestbook {
+    background-position: -672px -672px;
+}
+
+.Window {
+
+
+    width: 500px;
+    background-color: #ece9d8;
+    font-family: 'Tahoma', sans-serif;
+
+    border: 3px solid #0054e3; 
+    border-top: none; 
+    border-radius: 5px 5px 0 0;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    padding: 0;
+    overflow: hidden;
+}
+
+.TitleBar {
+  background: linear-gradient(to right, #0058e6, #02209e);
+  color: white;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px 1px #000;
+  height: 30px;
+  border-radius: 2px 2px 0 0;
+}
+
+.TaskbarButton {
+  width: 21px;
+  height: 21px;
+  border: none;
+  background-image: url('WinXp/Frame/UI\ Theme.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+}
+
+.TextField {
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+
+.TextField > p {
+    font-size: medium;
+    font-family: retro;
+    color: #000000;
+    text-shadow: none;
+    margin: 10px;
+}
+
+.TitleTextField {
+    padding: 15px;
+    color: #000;
+    font-size: 14px;
+    font-family: retro;
+}
+
+.TitleTextField > p {
+    color: #1d1c1c;
+    font-size: 3rem;
+}
+
+.XP-Min {
+    background-position: -375px -236px;
+}
+
+.XP-Window {
+    background-position: -399px -236px;
+}
+
+.XP-Close {
+    background-position: -447px -236px;
+}
+
+
+.XP-Min:hover {
+    background-position: -375px -257px;
+}
+
+.XP-Window:hover {
+    background-position: -399px -257px;
+}
+
+.XP-Close:hover {
+    background-position: -447px -257px;
+}
+
+
+.XP-Min:active {
+    background-position: -375px -278px;
+}
+
+.XP-Window:active {
+    background-position: -399px -278px;
+}
+
+.XP-Close:active {
+    background-position: -447px -278px;
+}
+
+.AlbumImage {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0.5rem auto 0 auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.Mez { background-image: url(WinXp/Covers/Music/System/Mezmerize.png); }
+.Hyp { background-image: url(WinXp/Covers/Music/System/Hypnotize.jpg); }
+.Tox { background-image: url(WinXp/Covers/Music/System/Toxicity.jpg); }
+.Sta { background-image: url(WinXp/Covers/Music/System/Stealit.jpeg); }
+.Sys { background-image: url(WinXp/Covers/Music/System/SelfTitled.jpg);}
+
+.Coe { background-image: url(WinXp/Covers/Music/Ax7/CityOfEvil.jpg); }
+.Htk { background-image: url(WinXp/Covers/Music/Ax7/HailToTheTwink.jpg); }
+.Ax7 { background-image: url(WinXp/Covers/Music/Ax7/SelfTitled.jpg); }
+
+.Pul { background-image: url(WinXp/Covers/Music/Lifelover/Pulver.jpg);}
+.Kon { background-image: url(WinXp/Covers/Music/Lifelover/Konkurs.jpg);}
+.Sju { background-image: url(WinXp/Covers/Music/Lifelover/Sjukdom.jpg);}
+.Ero { background-image: url(WinXp/Covers/Music/Lifelover/Erotik.jpg);}
+
+.Album {
+    width: 270px;
+}
+
+.AlbumContainer {
+    display: flex;         
+    flex-direction: row;   
+    gap: 20px;             
+    align-items: flex-start; 
+    padding: 20px;         
+    flex-wrap: wrap;
+}
+
+.AnimeImage {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0.5rem auto 0 auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.JJBA { background-image: url(WinXp/Covers/Anime/Part3.jpg);}
+.BTR { background-image: url(WinXp/Covers/Anime/BTR.jpg);}
+
+.Anime {
+    width: 270px;
+}
+
+.AnimeContainer {
+    display: flex;         
+    flex-direction: row;   
+    gap: 20px;             
+    align-items: flex-start; 
+    padding: 20px;         
+    flex-wrap: wrap;
+}
+
+.BlogContainer {
+    display: flex;         
+    flex-direction: row;   
+    gap: 20px;             
+    align-items: flex-start; 
+    padding: 20px;         
+    flex-wrap: wrap;
+}
