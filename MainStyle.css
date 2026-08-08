@@ -233,6 +233,8 @@ main {
 
 .JJBA { background-image: url(WinXp/Covers/Anime/Part3.jpg);}
 .BTR { background-image: url(WinXp/Covers/Anime/BTR.jpg);}
+.NGR { background-image: url(WinXp/Covers/Anime/NGR.jpg);}
+.CSM { background-image: url(WinXp/Covers/Anime/CSM.jpg);}
 
 .Anime {
     width: 270px;
@@ -254,4 +256,16 @@ main {
     align-items: flex-start; 
     padding: 20px;         
     flex-wrap: wrap;
+}
+
+.FactorioImg {
+    background-image: url(WinXp/Images/JustAScreenshotSadly.jpg);
+    width: 450px;
+    height: 300px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0.5rem auto 0 auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
 }
