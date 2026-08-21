@@ -269,3 +269,15 @@ main {
     background-repeat: no-repeat; 
     background-position: center;
 }
+
+.MechaImg {
+    background-image: url(WinXp/Images/Screenshot-Mech-Wide.jpg);
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0.5rem auto 0.5rem auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
