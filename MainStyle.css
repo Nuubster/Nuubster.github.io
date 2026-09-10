@@ -298,3 +298,39 @@ main {
     background-repeat: no-repeat; 
     background-position: center;
 }
+
+.BabysFirstDoomImg {
+    background-image: url(WinXp/Images/Doomugh.jpg);
+    width: 450px;
+    height: 300px;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0.5rem auto 0.5rem auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.RefinedWolfensteinImg {
+    background-image: url(WinXp/Images/BetuhDoom.jpg);
+    width: 450px;
+    height: 300px;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0.5rem auto 0.5rem auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.OrangImg {
+        background-image: url(WinXp/Images/Orang.jpg);
+    width: 450px;
+    height: 300px;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0.5rem auto 0.5rem auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
