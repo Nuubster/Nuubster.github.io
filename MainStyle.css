@@ -320,3 +320,15 @@ main {
     width: 400px;
     height: 300px;
 }
+
+.TexImg {
+    background-image: url(WinXp/Images/Textures.jpg);
+    width: 400px;
+    height: 300px;
+}
+
+.GalImg {
+    background-image: url(WinXp/Images/NOTAKIRNIL.jpg);
+    width: 400px;
+    height: 300px;
+}
