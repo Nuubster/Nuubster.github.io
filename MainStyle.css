@@ -236,11 +236,17 @@ main {
     background-position: center;
 }
 
+.Window.AnimeComment .AnimeImage {
+    flex-shrink: 0;
+    margin: 0;
+}
+
 .JJBA { background-image: url(WinXp/Covers/Anime/Part3.jpg);}
 .BTR { background-image: url(WinXp/Covers/Anime/BTR.jpg);}
 .NGR { background-image: url(WinXp/Covers/Anime/NGR.jpg);}
 .CSM { background-image: url(WinXp/Covers/Anime/CSM.jpg);}
 .REM { background-image: url(WinXp/Covers/Anime/Subaru-and-emilia.jpg);}
+.CPP { background-image: url(WinXp/Covers/Anime/CP.jpg);}
 
 .Anime {
     width: 270px;
@@ -253,6 +259,18 @@ main {
     align-items: flex-start; 
     padding: 20px;         
     flex-wrap: wrap;
+}
+
+.AnimeComment {
+    width: 60rem;
+}
+
+.AnimeComment .AnimeWindowWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 10px;
 }
 
 .BlogContainer {
